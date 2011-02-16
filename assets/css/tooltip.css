@@ -1,0 +1,44 @@
+
+.peally-tooltip {
+	position: relative;
+	background: #333;
+	width: 200px;
+	height: 100px;
+	margin: 10px 0 0 10px;
+}
+
+.peally-tooltip.rounded {
+	border-radius: 3px;
+}
+
+.peally-tooltip .tip {
+	width: 10px;
+	height: 10px;
+	behavior:url(-ms-transform.htc);  
+  	-moz-transform:rotate(45deg);  
+  	-webkit-transform:rotate(45deg);  
+  	-o-transform:rotate(45deg);  
+  	-ms-transform:rotate(45deg); 
+  	background: #333;
+  	margin-top: -5px;
+  	margin-bottom: 0;
+  	position: absolute;
+}
+.peally-tooltip .tip.centre {
+	margin-left: 93px;
+}
+
+.peally-tooltip .tip.left {
+	margin-left: 10px
+}
+
+.peally-tooltip .tip.right {
+	margin-right: 10px;
+}
+
+.peally-tooltip .main {
+	color: #fff;
+	padding:0;
+	margin: 3px;
+	position: absolute;
+}

@@ -1,0 +1,25 @@
+.peally-notification {
+	border-radius: 5px;
+	border: 1px solid #000;
+	background: #333;
+	vertical-align: middle;
+	width: 500px;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	left: 50%;
+	margin-left: -250px;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+.peally-notification .main {
+	color: #fff;
+	display: inline-block;
+}
+
+.peally-notification .close{
+	width: 10px;
+	display: inline-block;	
+	color: #fff;
+	margin: 0 -10px 0 10px;
+}

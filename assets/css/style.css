@@ -1,0 +1,45 @@
+body {
+	font: 12px "Segoe UI", Arial, Sans-serif;
+}
+
+h1.example, h2.example, h3.example {
+    border-bottom: 1px solid #aaa;
+}
+
+h1.example, h2.example, h3.example, h4.example {
+	color: #444;
+	padding: 5px 5px 0;
+    margin-top: 0;
+}
+
+h4.example {
+	padding: 15px 5px 0;
+	margin:0;
+}
+
+p.example {
+    background: #000;
+    color: #3D7169;
+    padding: 10px;
+}
+
+code.example {
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 10px;
+	margin:10px auto;
+	display:block;
+	width:95%;
+}
+
+div.example {
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section.example:last-child {
+	border-top: 1px solid #aaa;
+}
